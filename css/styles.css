@@ -21,7 +21,7 @@ p {
 img {
   display: block;
 }
-.conteiner {
+.container {
   width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
@@ -31,13 +31,14 @@ img {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-.header-box {
+.line {
   display: flex;
   justify-content: center;
   border-bottom: 1px solid #e7e9fc;
 }
 .nav-box {
   display: flex;
+  align-items: center;
 }
 .list-header {
   display: flex;
