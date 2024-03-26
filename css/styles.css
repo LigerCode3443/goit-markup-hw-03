@@ -82,13 +82,13 @@ img {
 }
 .address {
   font-style: normal;
+  margin-left: 332px;
 }
 .list-contacts {
   display: flex;
   gap: 40px;
   padding-top: 24px;
   padding-bottom: 24px;
-  margin-left: 332px;
 }
 .list-items-contact {
 }
