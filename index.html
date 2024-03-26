@@ -20,26 +20,27 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header class="line">
-      <div class="container">
-        <nav class="nav-box">
+    <!-- #region header -->
+    <header class="header">
+      <div class="header-box container">
+        <nav class="header-nav">
           <a href="./index.html" class="logo"
             >Web<span class="logo-web">Studio</span></a
           >
-          <ul class="list-header">
-            <li><a href="./index.html" class="menu">Studio</a></li>
-            <li><a href="" class="menu">Portfolio</a></li>
-            <li><a href="" class="menu">Contacts</a></li>
+          <ul class="header-list">
+            <li><a href="./index.html" class="header-item">Studio</a></li>
+            <li><a href="" class="header-item">Portfolio</a></li>
+            <li><a href="" class="header-item">Contacts</a></li>
           </ul>
         </nav>
-        <address class="mail-contact">
+        <address class="address mail-contact">
           <ul class="list-contacts">
-            <li>
+            <li class="list-items-contact">
               <a href="mailto:info@devstudio.com" class="contacts"
                 >info@devstudio.com</a
               >
             </li>
-            <li>
+            <li class="list-items-contact">
               <a href="tel:+110001111111" class="contacts"
                 >+11 (000) 111-11-11</a
               >
@@ -48,42 +49,45 @@
         </address>
       </div>
     </header>
+    <!-- #endregion header-->
+    <!-- #region main -->
     <main>
-      <section class="main-central">
+      <!-- #region section zero -->
+      <section class="section-zero">
         <div class="container main-content">
           <h1 class="text-central">Effective Solutions for Your Business</h1>
-          <button type="button" class="button-styles">
-            <span>Order Service</span>
-          </button>
+          <button type="button" class="button-styles">Order Service</button>
         </div>
       </section>
+      <!-- #endregion section zero-->
+      <!-- #region section text -->
       <section class="section">
         <div class="container">
           <h2 class="visually-hidden"></h2>
-          <ul class="list-text">
-            <li class="items-text">
-              <h3 class="menu-two">Strategy</h3>
+          <ul class="list-zero">
+            <li class="items-zero">
+              <h3 class="text-zero">Strategy</h3>
               <p class="text-menu-two">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
               </p>
             </li>
-            <li class="items-text">
-              <h3 class="menu-two">Punctuality</h3>
+            <li class="items-zero">
+              <h3 class="text-zero">Punctuality</h3>
               <p class="text-menu-two">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
               </p>
             </li>
-            <li class="items-text">
-              <h3 class="menu-two">Diligence</h3>
+            <li class="items-zero">
+              <h3 class="text-zero">Diligence</h3>
               <p class="text-menu-two">
                 Research and confirm brands that present the strongest digital
                 growth opportunities and minimize risk.
               </p>
             </li>
-            <li class="items-text">
-              <h3 class="menu-two">Technologies</h3>
+            <li class="items-zero">
+              <h3 class="text-zero">Technologies</h3>
               <p class="text-menu-two">
                 Design practice focused on digital experiences. We bring forth a
                 deep passion for problem-solving.
@@ -92,54 +96,60 @@
           </ul>
         </div>
       </section>
+      <!-- #endregion section text-->
+      <!-- #region section team -->
       <section class="main-foto section">
         <div class="container">
-          <h2 class="central-text">Our Team</h2>
+          <h2 class="text-team">Our Team</h2>
           <ul class="list-team">
-            <li class="main-list">
+            <li class="items-team">
               <img
                 src="./images/Mark-Guerrero.jpg"
                 alt="Mark Guerrero"
+                class="items-images"
                 width="264"
                 height="260"
               />
-              <div class="items-text-foto-one">
+              <div class="items-box-team">
                 <h3 class="name-person">Mark Guerrero</h3>
                 <p class="work">Product Designer</p>
               </div>
             </li>
-            <li class="main-list">
+            <li class="items-team">
               <img
                 src="./images/Tom-Ford.jpg"
                 alt="Tom Ford"
+                class="items-images"
                 width="264"
                 height="260"
               />
-              <div class="items-text-foto-one">
+              <div class="items-box-team">
                 <h3 class="name-person">Tom Ford</h3>
                 <p class="work">Frontend Developer</p>
               </div>
             </li>
-            <li class="main-list">
+            <li class="items-team">
               <img
                 src="./images/Camila-Garcia.jpg"
                 alt="Camila Garcia"
+                class="items-images"
                 width="264"
                 height="260"
               />
-              <div class="items-text-foto-one">
+              <div class="items-box-team">
                 <h3 class="name-person">Camila Garcia</h3>
                 <p class="work">Marketing</p>
               </div>
             </li>
-            <li class="main-list">
+            <li class="items-team">
               <img
                 src="./images/Daniel-Wilson.jpg"
                 alt="Daniel Wilson"
+                class="items-images"
                 width="264"
                 height="260"
               />
-              <div class="items-text-foto-one">
+              <div class="items-box-team">
                 <h3 class="name-person">Daniel Wilson</h3>
                 <p class="work">UI Designer</p>
               </div>
@@ -147,14 +157,18 @@
           </ul>
         </div>
       </section>
+      <!-- #endregion section team -->
+      <!-- #region section portfolio -->
       <section class="section">
         <div class="container">
-          <h2 class="central-text">Our Portfolio</h2>
-          <ul class="list-foto-two">
+          <!-- text section team styles -->
+          <h2 class="text-team">Our Portfolio</h2>
+          <ul class="list-portfolio">
             <li class="items-foto-two">
               <img
                 src="./images/Banking-App.jpg"
                 alt="Banking App"
+                class="portfolio-images"
                 width="360"
                 height="300"
               />
@@ -167,6 +181,7 @@
               <img
                 src="./images/Cashless-Payment.jpg"
                 alt="Cashless Payment"
+                class="portfolio-images"
                 width="360"
                 height="300"
               />
@@ -179,6 +194,7 @@
               <img
                 src="./images/Meditation-App.jpg"
                 alt="Meditation App"
+                class="portfolio-images"
                 width="360"
                 height="300"
               />
@@ -191,6 +207,7 @@
               <img
                 src="./images/Taxi-Service.jpg"
                 alt="Taxi Service"
+                class="portfolio-images"
                 width="360"
                 height="300"
               />
@@ -203,6 +220,7 @@
               <img
                 src="./images/Screen-Illustrations.jpg"
                 alt="Screen Illustrations"
+                class="portfolio-images"
                 width="360"
                 height="300"
               />
@@ -215,6 +233,7 @@
               <img
                 src="./images/Online-Courses.jpg"
                 alt="Online Courses"
+                class="portfolio-images"
                 width="360"
                 height="300"
               />
@@ -226,7 +245,10 @@
           </ul>
         </div>
       </section>
+      <!-- #endregion section portfolio -->
     </main>
+    <!-- #endregion main -->
+    <!-- #region footer -->
     <footer class="color-footer">
       <div class="container">
         <a href="./index.html" class="logo-footer"
@@ -238,5 +260,6 @@
         </p>
       </div>
     </footer>
+    <!-- #endregion footer -->
   </body>
 </html>
